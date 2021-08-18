@@ -1,0 +1,239 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #eee;
+    font-family: "Lato", sans-serif;
+}
+
+@media screen (max-width: 570px) {
+    body {
+        background-color: #eee;
+    }
+    img {
+        display: inline-flex;
+    }
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 12px 16px;
+    background-color: #eee;
+    z-index: 9999;
+}
+
+#header-img {
+    display: inline-block;
+    width: 20%;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+@media screen (max-height:  800px) {
+    img {
+        width: 100px;
+    }
+}
+
+#nav-bar {
+    float: right;
+    padding: 5px;
+}
+
+.ul-nav-bar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.ul-nav-bar > li {
+    float: left;
+}
+
+.nav-link {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 12px;
+    margin-right: 40px;
+}
+
+#email-section {
+    margin-top: 93px;
+    padding: 15px 0;
+}
+
+#form {
+    text-align: center;
+    padding: 10px;
+}
+
+#email {
+    padding: 4px;
+    width: 270px;
+}
+
+#submit {
+    margin-top: 15px;
+    border: none;
+    padding: 5px;
+    width: 170px;
+    font-weight: 900;
+    font-size: 16px;
+    background: #f1c40f;
+    cursor: pointer;
+}
+
+#submit:hover,
+.price button:hover {
+    background: darkorange;
+    transition: 2s;
+}
+
+#features {
+    margin-top: 0;
+    padding: 70px 250px 10px;
+}
+
+.feature {
+    margin-bottom: 80px;
+}
+
+.feature > i {
+    float: left;
+    font-size: 60px;
+    color: darkorange;
+}
+
+.feature > h1 {
+    margin-left: 130px;
+    margin-bottom: -16px;
+}
+
+.feature > p {
+    margin-left: 130px;
+}
+
+#howitworks {
+    margin-top: 0;
+    padding: 10px 400px;
+}
+
+#video {
+    /*width: 600px;
+    height: 300px;*/
+    width: 560px;
+    height: 315px;
+}
+
+#pricing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    padding: 40px 140px;
+}
+
+.price {
+    border: 1px solid black;
+    margin-right: 40px;
+    width: 30%;
+    text-align: center;
+}
+
+.price > h1 {
+    margin: 0;
+    background: #ddd;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.price > p {
+    line-height: 37px;
+}
+
+.price > button {
+    border: none;
+    padding: 5px;
+    margin-bottom: 20px;
+    width: 100px;
+    font-size: 18px;
+    background: #f1c40f;
+    cursor: pointer;
+}
+
+#footer {
+    padding: 0;
+    margin-top: 0;
+}
+
+#container {
+    background-color: #ddd;
+    margin: 0 170px 0 135px ;
+    padding: 15px;
+}
+
+#list {
+    float: right;
+}
+
+.ul-list-footer {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.ul-list-footer > li {
+    float: left;
+}
+
+.ul-list-footer > li > a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin-right: 25px;
+    margin-top: 20px;
+}
+
+@media screen (max-width: 570px) {
+    #features {
+        display: inline;
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .feature {
+        display: block;
+        margin-bottom: 0;
+    }
+
+    .feature > h1 {
+        margin-left: 60px;
+        margin-bottom: -16px;
+    }
+
+    .feature > p {
+        margin-left: 60px;
+    }
+
+    #pricing {
+        margin-top: 0;
+        padding: 40px 140px;
+        display: block;
+    }
+
+    .price {
+        border: 1px solid black;
+        width: 90%;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+}
+
